@@ -1,0 +1,10 @@
+3. margin:- (border kay bahir dosray element kay darmayan space)
+margin maan hi negative value work kary ga margin-top: -50px;
+margin-top: 50px;
+margin-bottom: 20px;
+margin-left: 60px;
+margin-right: 10%;  
+margin: 25px 12px 40px 60px;
+margin: auto;  small div ha us ko horizontaly center karnay kay liay.
+
+margin colaps matlab upar div ko 20px dia bellow ko 50px dia ha to total 70 nahin 50 ho ga big value consider ho gi.

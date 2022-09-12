@@ -1,0 +1,62 @@
+
+
+1. Type selector:-
+	h1{ color:red;}
+
+2.Id selector:-
+	#id{}
+
+3. class selector:-
+
+	.class{}
+4. pseudo class & pseudo element:-
+
+ a:hover{}
+
+p::first-line{}
+
+...........................................
+Some New selector's:-
+...........................................
+5. Attribute selector:- //poray website maan jis attribute ka href za ho ga us ka color red ho jay ga.
+a[href="https://example.com"]{color:red;}
+form maan input field kay sath bi use kar saktay hain.
+
+
+6. Universal Selector:-
+
+*{color:red;} // sab element par apply ho ga
+
+7. Combinator selector:-
+	4 type's of combinator selector are present
+a)Descendant combinatory(child at any stage)
+iss maan zarori nahin ha red-p class ka span direct child ho kisi point par child ho sakta ha.
+	.red-p span{
+
+	color:green;
+}
+............................................
+b) Adjacent combinatory(right after sibling)
+for example, paragraph element kay sath hi agar h1 ha to us ko green color kar doo.
+
+.red-p + h1{
+
+	color: green;
+}
+...........................................
+c) General sibling combinatory(all sibling)
+
+all sibling after one after all
+
+.red-p ~ h1{
+	color:green;
+}
+.......................................
+d) Add selector {General sibling combinatory(right after sibling)}
+ek paragraph ha red-p aur h1 dono ka color green kar doo.
+.red-p,h1{color: green;}
+
+
+ 
+
+

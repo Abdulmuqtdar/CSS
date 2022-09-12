@@ -1,0 +1,45 @@
+
+
+.flex-parent{
+
+	display: flex;
+	flex-direction: row; // row-reverse; // column;  
+	flex-wrap: nowrap; // wrap; // wrap-reverse;
+combine property //// flex-flow: row wrap;
+	justify-content: center; // flex-end; // space-around; // space-between; 
+align_items: stretch; // center; // flex-start; 
+	flex-wrap: wrap;
+align-content: stretch; // space-between; //space-around; //flex-start; //flex-end;
+}
+
+
+.flex-child{
+
+text-align: center; 
+
+}
+
+
+justify-content horizontally work karta ha // align-content vertically kaam kary ga.
+.........................................................
+flex-box properties for childs:-
+
+#one{
+	order:2;
+	flex-grow:1;// matlab kiti space lani ha 
+	flex-shrink:3; // matlab za bakiun say teen guna gatahy.
+	align-self: flex-start; 
+}
+
+#two{
+	order:3;
+	flex-grow:1;
+	flex-basis: 300px; // initial width kitni ho gi.
+align-self: center;
+}
+
+#three{
+	order:1;
+	flex-grow:1;
+align-self: flex-end;
+}

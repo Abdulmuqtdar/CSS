@@ -1,0 +1,23 @@
+
+
+
+spacific portion ko style karnay kay liay css kay sath
+
+p::first-letter{   // first-line  //
+
+	font-size: 35px;
+	color: red;
+}
+
+
+
+h1::before{  content: url(images/arrow.png)}
+
+h1::after{  content: url(images/arrow.png)}
+
+
+::selection{ //jis bi area ko select karain gay us par apply ho ga
+
+	color: red;
+	background: yellow;
+}

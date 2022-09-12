@@ -1,0 +1,27 @@
+
+
+
+float property say element ko left right maan move kar saktay hain
+float karnay say li ul say bahir a jay ga.
+
+ul{
+
+overflow: auto; // is say container zani ul say bahir nahin ay ga.
+}
+
+li{
+
+float: left;
+}
+
+
+do floated element/images ko sath maan na rakhna ho to us kay liay clear property:-
+
+#img1{
+	float: right;
+}
+
+#img2{
+	float: right;
+	clear: right;  // both;  // left;
+}

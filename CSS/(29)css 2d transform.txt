@@ -1,0 +1,57 @@
+
+
+
+rotate /move /scale any element in css:-
+
+transform property not work with inline 
+
+translatee  // rotate  // scale   // skew   {{{{transform properties)}
+
+
+a{
+
+transform: translatee(50px, 50px);  // matlab x-axis say kitna door bajna ha aur y-ais say kitna door bajna ha.
+
+display: inline-block;
+transform: skew(20deg , 10deg); // (x-axis , y-axis); // use with inline-block or block  //skewX(); //skewY();
+
+
+}
+
+we can use with hover and rotate rather then translatee: 
+
+a:hover{
+
+	display: inline-block;
+	transform: rotate(20deg); //-20deg
+}
+
+
+......................................................
+
+
+a:hover{
+
+	display: inline-block;
+	transform: scale(2 ,3); // zoom-in/zoom-out like bahave kary ga  // scaleX(0.8); //scaleY(2);
+}
+
+
+..............................................
+
+
+
+za tmam properties center say implement ho rahi han agr ham center say na kar kay left za right say karna cahtay hon to
+
+a{
+transform: rotate(20deg);
+transform-origin: 0% 100%;
+}
+
+
+..........................................
+
+ek say zada properties combine lagany kay liay:-
+
+transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY() );
+transform: matrix(1, 0.5, 0, 1, 0, 0);

@@ -1,0 +1,24 @@
+1. unit's:-
+
+ we use length in width,height,margin,padding,font-size
+There are two type's of units in css
+a) Absolute {Absolute unit's:- Cm Mm Inch Px Pt Pc}
+kisi par depend nahin ho ga 
+
+px(1inch=96px // pt(1inch=72pt // pc(1pc=12pt)
+
+b) Relative {Relative unit's:- Em Rem Vh Vw %}
+
+Em-em is relative to the size of its direct parent{1em matlab jitna parent ka size ha 2 matlab parent ka double}
+
+Rem-rem is only relative to root(html tag) size{jitna html tag ka size ha us jitna}
+
+Vh-- 1% of view port height
+
+Vw-- 1% of view port width
+
+% -- relative to parent
+
+
+
+

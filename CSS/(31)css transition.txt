@@ -1,0 +1,27 @@
+
+
+
+mouse hover effect quick ho raha hota ha us maan
+dilay karnay kay liay thora slow wagara karna hi transition ha.
+ 
+#div1{
+	transition-property: width , background-color; // OR write all // transition-property: all;   
+ 
+	transition-duration: 1s;
+
+	transition-delay: 500ms; //kitni daar baad start karna ha
+
+	transition-timing-function: ease-in-out; // many properties in this field
+}
+
+#div1:hover{
+
+	width: 200px;
+	background-color: green;
+}
+
+............................................
+
+short-cut:------
+
+transition: property, duration, timing-function, delay;

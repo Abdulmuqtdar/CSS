@@ -1,0 +1,9 @@
+1. css importance property:-
+
+	css ki structural property importance htany kay liay use kartay hain
+matlab in-line then class then id then element have importance
+but if we want that this property gain much importance then use important with it.
+
+div{
+	border: 1px solid red !important;
+} 

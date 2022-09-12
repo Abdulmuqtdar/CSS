@@ -1,0 +1,18 @@
+
+
+content ka height and width container kay height & width say zada ho
+
+
+#overflow{
+	background-color: whitesmoke;
+	border: 1px solid grey;
+	width: 500px;
+	height: 300px;
+	overflow: visible;  //bydefault visible property hoti ha.
+}
+
+	overflow: hidden;
+	overflow: scroll;
+	overflow-x: hidden; // scroll;
+	overflow-y: scroll; // hidden;
+	overflow:auto; // matlab agar dono posibilities hon to content kam za zada dono ho to

@@ -1,0 +1,9 @@
+
+
+
+padding aur border add karnay say box ka siza baar jata ha
+agar ham cahtay hain box size zada na ho jitnu hight width 
+di ha us maan hi adjest ho 
+
+box-sizing: border-box; // bydefault content-size hota ha.
+

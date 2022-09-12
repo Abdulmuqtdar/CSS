@@ -1,0 +1,21 @@
+
+
+css maan small images ko mila kar big image bnaty hain 
+aur pir dobra small images maan use karna image sprites 
+kahlata ha.
+
+#sprite{
+
+height: 128px;
+background-image: url('images/sprite.png');
+background-repeat: no-repeat;
+background-position: 0px -143px;  // second flag kay liay
+
+{{{{{background-position: 0px -288px;
+}
+
+sprites image background maan hi use ho sakta ha only.
+page load time kam hota ha is say.
+sabi images kay sath is lay use nahin kartay hain ek hi file 100mb za 10 mb ki ho jay gi aur first time 
+maan hi load honay maan waqat lay ga.
+

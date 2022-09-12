@@ -1,0 +1,29 @@
+
+
+animation maan pahlay define karna parta ha
+kah kaya animate ho ga aur kab ho ga.
+us kay liay top par ek function use krain gay.
+
+@keyframes changecolor {
+	from {background-color: red; border-radius: 0%;} //from matlab jab start ho ga to kaya karna ha
+	to {background-color; green;} // to matlab jab end ho to kaya karna ha.
+
+// from & to ko percentage maan bi likh saktay hain
+// from & to maan css ki koi bi properety use karsaktay hain.
+
+ 	0%{background-color: red;}
+	25%{background-color: green;}
+	50%{background-color: yellow;}
+	75%{background-color: red;}
+}
+
+
+
+#animate{
+	animation-name: changecolor;
+	animation-duration: 3s;
+	animation-delay: 4s;
+	animation-iteration-count: 3; //infinite // inherit // initial // unset
+	animation-direction: reverse; //alternate; //alternate-reverse;
+	animation-timing function: ease-out;	 
+}

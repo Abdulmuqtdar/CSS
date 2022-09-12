@@ -1,0 +1,44 @@
+External //Internal  // Inline
+
+1. External css:-
+	p{
+	border:2px dotted red;
+	font-size:20px
+	}
+
+2. Inline css:-
+	<h2> style="color:Red">Heading</h2>
+
+3. Internal css:-
+	<head>
+	<style>
+		h2{color:green;}
+	</style>	
+	</head>
+
+
+id style with #idname  and class style with .classname
+
+4. single element type:-
+p{apply styling }
+
+5. Multiple element type:-
+h1,h2,h3,h4,h5{apply style on all}
+
+6. All element type:-
+	*{  }
+7. Specific elements by id:-
+	#p1,#p3{---------}
+
+8. Syntax of css:-
+
+   p {color :   blue;}
+	p is selector & color is a property name & blue is a property value.
+
+9.selector's types:- Element // id // class
+
+10. Comments:-   /*-------*/  
+
+
+
+

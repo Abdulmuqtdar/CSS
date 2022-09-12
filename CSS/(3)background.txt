@@ -1,0 +1,29 @@
+1. Background:-
+#bg{
+background-image:url('image/1.jpg');
+background-repeat:no-repeat;  //repeat-x;  repeat-y;
+}
+
+1. position set karnay kay liay:-
+	background-position: center center; // right top; // 50px 100px;  // 5%  10%;
+background-size: 500px 700px; // 50% 50% // cover; // content;
+	background-attachment: scroll; // fixed;
+
+2. Border:-
+	border-style: solid; //dotted // dash; // double; // groove; // outset; // inset;
+	rigge; // none;
+	border-style: top right bottom left;
+	border-width: 5px 10px 2px 7px;
+	border-color: red yellow green blue;
+border: 5px solid green;
+border-top-style: solid;
+border-top-width: 10px;
+border-top-color: red;
+border-top-left-radius: 10px;
+	border-radius: 50px; //50%;
+	border-radius: 10px 20px 30px 40px;
+
+
+
+
+	

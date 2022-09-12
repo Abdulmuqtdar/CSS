@@ -1,0 +1,21 @@
+5. text:-
+
+#txt1{
+    width: 700px;
+    height: 500px;
+    border: 1px solid black;
+    color: blue;
+    text-align: center; // justify; // right; {justify use for news}
+    text-decoration: underline; //overline; // none; // line-through;
+    text-transform: uppercase;  // lowercase; // capitalize;
+line-height: 30px; // lines kay darmayan jaga dany kay liay
+	text-indent: 50px; // first line dhori jaga shoor kar start ho.
+letter-spacing: 10px; // letter kay dormain space kay liay.
+	word-spacing: 3px; // words kay darmayan space dany kay liay.
+white-space: pre; //nowrap;  // p tag maan jo spaces add ki hon gi wo bi show hon gi.
+	word-wrap: break-word; //
+text-shadow: 5px 10px 5px red;  // horizontly-shadow/verticaly-shadow/blr/color;
+	writing-mode: vertical-lr; //sideways-lr;
+
+
+}

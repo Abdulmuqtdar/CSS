@@ -1,0 +1,28 @@
+
+
+gradient:- smooth combination of two or more colors
+
+linear gradient :- iss maan line bna kar kary ga combine
+ 
+	#div{
+
+	height: 500px;
+	border: 1px solid grey;
+	background-image: linear-gradient(to right, green, blue);
+
+background-image: linear-gradient(to bottom right, green, blue); 
+background-image: linear-gradient(160deg, green, blue);
+	}
+
+radial gradient :- iss maan circle bna kar kary ga.
+
+#div{
+
+	height: 500px;
+	border: 1px solid grey;
+	background-image: radial-gradient(circle, green 20%, blue 80%);
+
+
+	}
+  
+

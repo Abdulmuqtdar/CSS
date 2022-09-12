@@ -1,0 +1,17 @@
+
+
+
+z-index: 3;
+
+
+z-index property color block kay sath use kartay hain
+layering kay doran first block nichay then us say next wala 
+us kay upar and so on
+ham apni marzi say kisi bi block ko nichay karnay kay liay
+z-index property use kartay hain.
+
+jis element ki z-index property zada ho gi wo uppar 
+dosra nichay 
+z-index:2; nichay z-index:3; uppar..
+
+

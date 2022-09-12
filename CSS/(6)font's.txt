@@ -1,0 +1,22 @@
+6. Font:-
+
+font-size: 30px;
+    font-weight: bold; // regular; // 100-900;
+font-style: italic;
+	font-variant: small-caps;
+ttf // otf // woff 
+font-family: 'poppins' , sans-serif;
+
+//downloaded font ko jab use karna ho to css file maan top par likhain gay.
+@font-face{
+	font-family: Abc;
+	src: url('');
+}
+
+h1{
+font-family: abc;  // abc, 'poppins' ,sans-serif; // ek say zada fonts use kar saktay hain.
+
+}
+.......................................
+short hand:-
+font: italic small-caps 600 20px "font-name"; style/variant/weight/size/family

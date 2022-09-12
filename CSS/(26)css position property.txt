@@ -1,0 +1,30 @@
+
+
+position property define the position of a element
+where an element exist.
+
+position property are of four type's
+
+static // relative // fixed // absolute.
+
+
+static // default hota ha.
+
+top, bottom, :left, right // baki teen kay sath kam kary ga.
+
+
+relative: apni current position kay irad-girad(top,bottom,left,right) adject kary ga.
+
+but apni current position ko occupy kar kay rakhay ga.
+
+.....................................
+Absolute: positioned parent kay hisab say khud ko position day ga 
+asa parent jis ko position dia ho // static kay ilawa kush aur fixed/relative/absolute kush bi 
+dia ho wo positioned ho ga.
+ek parent positioned na ho to us kay parent ko dakhy ga
+agar koi bi na ho to body kay hisab say lay ga. 
+
+...........................................
+fixed kay sath top bottom right left property use karna 
+must ha nahin to wo apni jaga par hi fix ho jay ga aur jaga khali bi kar day ga.
+viewport:kay hisab say fix ho gata ha.

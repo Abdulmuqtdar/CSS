@@ -1,0 +1,25 @@
+
+
+css maan list ko style karnay ka tarika:-
+
+
+ul{
+
+	`list-style-type: none;
+	list-style-type: circle;
+	list-style-type: square;
+	list-style-image: url('images/1.jpg');
+list-style-position: inside;
+	
+
+}
+
+ol{
+
+	list-style-type: upper-alpha;
+	list-style-type: lower-alpha;
+	list-style-type: lower-roman;
+	list-style-type: decimal;
+	list-style-type: decimal-leading-zero;
+
+}

@@ -1,0 +1,14 @@
+
+
+
+use almost with every css property:-
+
+interit matlab parent ki property ko inherit karna ha.
+
+initial matlab jo initial color ha wo day doo.
+
+
+#id{
+color: initial;
+color: inherit;
+}

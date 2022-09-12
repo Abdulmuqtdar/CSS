@@ -1,0 +1,21 @@
+
+
+
+3D- transforms do properties say kartay hain;
+
+perspective   // matlab kitnay qarib za door say dakh rahy hain.
+
+perspective-origin X // x angle say kitnay par dakh rahy hain.
+
+perspective-origin Y // y angle say kitnay par dakh rahy hain.
+
+
+...............................................
+
+transform: perspective(300px) rotate3d(0, 0, 0, 20deg);
+perspective-origin: 50% 50%;
+
+....................
+transform: perspective(300px) translate3d(50px, 0px, 0px);
+
+

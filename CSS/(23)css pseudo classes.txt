@@ -1,0 +1,37 @@
+
+
+syntax:-
+	selector: pesudo-class{
+
+}
+
+		{{{{LIKE}}}}}
+	a:link{     }
+	a:hover{	}
+
+search online pesudo-classes in css:-
+
+zahan dynamic data a raha ho id wagara use na hoi ho
+
+li:first-child{
+	color: red;
+}
+
+li:last-child{
+	color: black;
+ }
+
+li:nth-child(4){color:red;}
+li:nth-child(even){color:black;}
+li:nth-child(odd){color:black;}
+li:nth-child(3n + 0){color:black;}
+
+
+input field kay liay:-
+
+input:focus{
+	border: 3px solid red;
+}
+
+
+

@@ -1,0 +1,64 @@
+
+onlineutilitywebsite.com // to check browser size.
+
+and to check at which pixel point of screen website
+khrab ho rahi ha website ka size destroy ho raha ha.
+
+jis point par website khrab ho raha ho ga us us point 
+kay liay media query likhan gay.
+
+
+#div1{
+	width: 70%;
+	float: left;
+	background-color: green;
+}
+
+#div2{
+	width: 30%;
+	float: left;
+	background-color: brown;
+}
+
+@media screen and (max-width: 768px){
+	#div1{
+	width: 50%;
+}
+	#div2{
+	width: 50%;
+}
+
+}
+
+
+@media screen and (max-width: 400px){
+#div{width: 100%;}
+#div{width: 100%;}
+}
+
+max-width ki jaga min-width bi use kar saktay hain. aur ek hi width size ko 
+do baar bi style kar saktay hain.
+
+@media screen and (min-width:100px) and (max-width: 400px){
+}
+
+..........................................
+images and vedios ko responsive karnay ka shortcut za ha
+
+img{
+	width: 100%;
+	height: auto;
+}
+
+video{
+	width: 100%;
+	height: auto;
+}
+
+
+
+
+
+
+
+

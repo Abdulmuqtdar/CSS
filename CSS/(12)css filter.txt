@@ -1,0 +1,20 @@
+image wagara kay sath use kartay hain.
+
+filter: blur(10px);
+filter:  brightness(50%); // brightness kam karnay kay liay.
+filter: contrast(70%);
+filter: drop-shadow(8px 8px 5px red); //horizontal , vertical , blurr , shadow color
+
+filter: grayscale(30%);   // black and white karnay kay liay.
+
+filter: hue-rotate(90deg); // ccolor circle maan say color effect dalnay kay liay.
+
+filter: invert(100%);  // color effect dalnay kay liay.
+
+filter: opacity(30%); //
+
+filter: saturate(30%);
+
+filter: sepia(30%); //
+
+filter: brightness(80%), contrast(100%);

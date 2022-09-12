@@ -1,0 +1,43 @@
+
+
+Html koi bi element ek rectangular box ha aur wo box kasy 
+behave kary ka display property par depent kary ga.
+har element ka ek default display property hota ha.
+
+
+block  // inline  // inline-block //none;
+
+block pora width lay ga //div, p, h1, form
+
+inline utna hi width lay ga jitna required ho.//a, img, span
+
+we can change dislay property inline to block & block to inline.
+
+block:-
+start from new line.
+full width.
+height and width.
+
+Inline:-
+not new line start.
+no full width.
+no height and width.
+
+Inline-block:-
+
+not new line start.
+no full width.
+height and width.
+
+
+
+just add this line element design:-
+
+display: inline-block;  // inline;  // block
+
+kisi bi html element ko hatana ho to fourth property none; use kartay hain.
+
+
+visibility: hidden; // is say bi element hidde ho jay ga.
+visibility: hidden; say element show nahin ho ga lakin space
+zaror occupy kary ga..

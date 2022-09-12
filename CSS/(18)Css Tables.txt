@@ -1,0 +1,22 @@
+
+
+css maan table style karnay ka tarika:-
+
+	table{
+	border: 1px solid black;
+	border-collapse: collapse; // bydefault separate;
+border-spacing: 15px 25px; // top/bottom , left/right
+}
+caption{
+	border: 1px solid black;
+}
+tr{
+	border: 1px solid black;
+}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+height // padding // text-align  // vertical-align // 
+}

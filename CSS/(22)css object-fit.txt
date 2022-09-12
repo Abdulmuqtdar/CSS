@@ -1,0 +1,20 @@
+
+
+
+object-fit property image za pir vedio par lag sakta ha.
+
+img small ha width za height zada dany say image ki shape
+change ho jati ha is lay object-fit use karain gay.
+
+
+img{
+	border: 1px solid red;
+	width: 500px;
+	height: 400px;
+	object-fit: contain;// iss kay sath bi position btain gay {{{top left;}}}
+	object-fit: fill; // pir say image phila day ga.
+	object-fit: cover; // image ko cut kar day ga.
+cover kay sath ek aur property use krain gay position btany kay liay
+	object-position: top center;
+
+}

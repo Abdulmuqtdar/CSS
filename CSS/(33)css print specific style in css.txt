@@ -1,0 +1,14 @@
+
+
+@media screen{
+	P{ font-size: 20px;}
+}
+
+@media print{
+	p{font-size: 30px;}
+	img{display: none;}
+	div{width:50%;}
+
+}
+
+bydefault jo css likhtay hain wo both kay liay hoti ha.

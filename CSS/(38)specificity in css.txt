@@ -1,0 +1,28 @@
+
+
+agar ek say zada css styles implement hoay hon
+ek element par to check karnay kay liay kah 
+currently kon sa apply ha.
+
+to jo more specific rule ho ga wo apply ho ga.
+
+Rule's :-
+1)!important will override every thing
+2)Inline can override everything except !important
+3)External will work according to specificity
+
+specificity rule:-
+1) #id selector has highest value
+2) *universal selector has lowest value
+
+specificity rule by point example:-
+10,000 point to !important
+1000 to inline
+100 to id
+10 to class, attribute or pseudo-class
+1 for element & pseudo-elements
+0 to universal selector
+
+
+agar same rule do martba apply ho external sheet maan
+to last wala apply ho ga.

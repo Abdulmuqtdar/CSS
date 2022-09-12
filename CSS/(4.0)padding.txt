@@ -1,0 +1,9 @@
+2. padding:- (space between content and border)
+negative value maan padding work nahin kary ga.
+
+padding-top: 50px;
+padding-bottom: 20px;
+padding-right: 10%;
+padding-left: 20%;
+padding: 25px;
+padding: 25px 50px 30px 70px;

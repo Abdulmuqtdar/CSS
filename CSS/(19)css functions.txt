@@ -1,0 +1,35 @@
+
+
+
+responsive kartay waqat div kay sath jo img use kia ha wo small
+na ho to us kay liay function use karain gay.calc()
+
+#fn{
+	background-color: teal;
+	height: 200px;
+	width: calc(100% - 200px);
+}
+
+second function variable ko define karnay kay liay use kartay hain.
+us kay liay top par css file maan
+
+:root{
+--primary-color: teal;   //variable defining.
+--btn-color: blueviolet;
+--text-color: white;
+}
+
+#fn{
+
+	background-color: var(--primary-color); // use of variable
+}
+
+
+
+
+
+
+
+
+
+

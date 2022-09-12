@@ -1,0 +1,14 @@
+
+
+box-shadow: 10px 20px 5px 20px grey inset; // x-axis , y-axis , blurre , strate radius , color
+
+
+strat radius:- matlab kitna phalay ga. philaoo us ka 
+inset :- matlab box kay undar shadow dana ho to.
+
+
+
+Multiple shadow's:-
+
+
+box-shadow: 10px 20px 5px 20px grey, -10px 20px 5px 20px red ;

@@ -1,0 +1,37 @@
+
+
+flex-box one dimentional tha ek hi row maan implement kartay hain.
+but css-grid maan rows aur column's ko bi combine kar saktay hain.
+grid works 2 dimensional alignment flex-box good for space distribution.
+flex-box maan height daan gay to sirf ek hi row par apply ho gi lakin grid maan sab par ho gi. 
+[parent]
+display: grid; //inline-grid; 
+grid-template-columns: 200px 400px; //200 aur 400 kay do column ban jain gay. // 200px 400px auto; // auto auto auto; // auto 50% auto;
+grid-template-rows: 100px 200px auto; // rows ka distance dany kay liay
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+justify-content: end; //center; // space-between;//space-evenly; // space-around; // columns ko position dany kay baad jo space free ho us kay liay use karain gay.
+align-content: center; // end; // space-evenly;
+......................................
+column ko marge karnay kay liay:
+
+#grid1{
+grid-column-start:1; // kis column say marge start karna ha us ka line-number
+grid-column-end: 3; // kis column par end karna ha us ka line-number.
+grid-column: 1/3; // another way.
+grid-column:1/span 2; //third way.
+}
+.....................................
+row ko marge karnay kay liay:
+#grid1{
+grid-row-start: 1;
+grid-row-end: 3;
+grid-row: 1 /span 3;
+
+
+}
+.....................................
+row or column both kay liay:
+
+grid-area: 1/2/3/4 ;  // starting row/starting column/ending row/ ending column
+

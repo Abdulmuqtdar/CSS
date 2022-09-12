@@ -1,0 +1,8 @@
+
+
+agar css ka koi frame-work use na kar rahy hon to
+responsive bnana teen chizon ka kam hota ha
+
+1.viewport meta
+2.media query
+3. images and vedios ko responsive bnana.

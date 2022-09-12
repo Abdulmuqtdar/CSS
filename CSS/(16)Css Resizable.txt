@@ -1,0 +1,18 @@
+
+
+ textarea,ko user apni marzi say kam za zada kar sakta ha us ko 
+band karna ho 
+
+
+aur agar textarea kay jasy div ko resize ki option dana ho to us kay liay 
+css ka resizable property use ata ha.
+
+resize: none;
+resize: both;
+resize: horizontal;
+resize: vertical;
+
+
+resize kay liay overflow ka hidden, auto, za scroll hona zarori ha.
+
+ 
